@@ -207,7 +207,7 @@ public  class Metods {
                     if (A[n][l] == " ") {
                         A[n][l] = "O";
                         f = 1;
-                    }
+                   }
                 }
             } break;
         } return h=0;
