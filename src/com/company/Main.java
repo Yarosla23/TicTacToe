@@ -33,7 +33,7 @@ public class Main {
                 }
             }
         } else if (k == 2) {
-            while (Methods.win(TicTacToe) == false) {
+            while (!Methods.win(TicTacToe)) {
                 System.out.println("Введите номер клетки 1-9 ");
                 int a = s.nextInt();
                 System.out.println("Введите 1 - если Х и 2 - если О");
