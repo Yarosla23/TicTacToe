@@ -3,7 +3,7 @@ package com.company;
 import java.util.ArrayList;
 import java.util.Random;
 
-public  class Metods {
+public  class Methods {
     public static void PrintBoard(String X[][]) {
         for (int i = 0; i < X.length; i++) {
             for (int j = 0; j < X[i].length; j++) {
@@ -13,7 +13,7 @@ public  class Metods {
         }
     }
 
-        private static int NullBoard(String A[][]) {
+ private static int NullBoard(String A[][]) {
          int k = 0;
             for (int i = 0; i < A.length; i = i + 2){
                 for (int j = 0; j < A.length; j = j + 2) {
@@ -23,7 +23,7 @@ public  class Metods {
             return k;
         }
 
-    public static int Input(String TicTacToe[][], int a,int s) {
+    public static int GameState(String TicTacToe[][], int a,int s) {
         int  h = 0;
         String symbol = " ";
         if (s == 1)
